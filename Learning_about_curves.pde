@@ -13,5 +13,8 @@ line(350, 100, 350, 300); // right
 beginShape();
 vertex(100, 350); // top-left
 vertex(500, 350); // top-right
-vertex(300, 450); // bottom of triangle
+curveVertex(550, 100);
+curveVertex(500, 350);
+curveVertex(100, 350);
+curveVertex(50, 100);
 endShape(CLOSE);
